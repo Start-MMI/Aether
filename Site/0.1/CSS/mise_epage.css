@@ -1,0 +1,41 @@
+main { padding-right: 20px;
+padding-left:20px;}
+
+nav>ul { display: none;}
+
+nav:hover>ul {
+    display: block;     
+}
+
+li { list-style: none;}
+
+ul { padding: 0}
+
+a { text-decoration: none;
+color: black;}
+
+header>nav>ul>li { background-color: #a4c7c9;
+padding-top: 5px;
+text-align: center;
+border-top: solid 1px black}
+
+header>nav>ul>li:last-of-type
+{ border-bottom: solid 1px black;}
+
+.separation, header>nav>ul>li:first-of-type,header>nav>ul>li:last-of-type  { background-color: #102034;
+color: white;
+text-decoration: none;}
+
+header>nav>ul>li>a[href$="index.html"],header>nav>ul>li>a[href$="autreP.html"]{ color: white;}
+
+ /*body>header>nav>a[href$="try.html"] {
+    display: block;           
+    text-indent: -9999px;
+    width: 100%;             
+    padding-top: 50%;                      
+    background-image: url(logo.png); 
+    background-size: cover; 
+}
+*/
+
+

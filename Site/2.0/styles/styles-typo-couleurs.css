@@ -1,0 +1,68 @@
+
+p,h4  { 												/* Famille Typo */
+	font-family: roboto;
+}
+h1,h2,h3,h5 { 
+	font-family: jura; 
+} 
+.mise_eavant>h2{										/* Titres */
+	text-transform:uppercase;
+}
+h2,h3,h5{
+	font-size:120%;
+}
+h4{
+	font-size:100%;
+}
+body{
+	background-color: #e4e7f1;
+}
+.mise_eavant, footer, nav>ul>li { 
+	background-color: #5d9ea4;
+}
+h2,.separation, header>nav>ul>li:first-of-type, header>nav>ul>li:last-of-type,.bouton>a { 
+	color: #102034;
+}
+h4,.col2a>a{ 
+	color: #6A471E;
+}
+article, .col2a>a{
+	font-size:130%;
+}
+article>p>a{
+	color:#5d9ea4;
+}
+.col2a>a{
+	font-weight:bold;
+}
+footer>p{
+	font-size:80%;
+}
+span,.bouton>a,header>nav>ul>li>a[href$="index.html"] , header>nav>ul>li>a[href$="autreP.html"],.separation, header>nav>ul>li:first-of-type, header>nav>ul>li:last-of-type { 
+	color: white;
+}
+a, header { 
+	text-decoration: none;
+	color: black;
+	background-color: #a4cbcf;
+}
+.col2a{													/* Specificité */
+	font-size:80%;
+}
+body>header>nav>ul>li>a { 
+	line-height:300%;				/* Liens */
+	font-weight:bold;
+	font-size:130%;
+	text-transform:capitalize;
+}
+.bouton>a{																							/* Boutons */
+	background-color: #102034;										
+	font-size: 80%;
+}
+.separation, header>nav>ul>li:first-of-type, header>nav>ul>li:last-of-type {							/* Séparations */
+    background-color: #102034;                                                                                  
+}
+
+.miseee>p:first-of-type{							
+    font-style: italic;                                                                                  
+}
