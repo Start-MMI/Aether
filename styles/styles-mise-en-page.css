@@ -1,4 +1,6 @@
-
+html{
+	background-color: lightgrey;
+}
  h1,h2,h3,h4,h5,p,img,ul,iframe { 																				/* CORECTIF BUG NAVIGATEUR */
  	margin:0;
  }
@@ -6,10 +8,9 @@
 border:none;
 }
 
-
-
 body { 																									/* Géneralité */
 	max-width: 450px;
+	margin: 0 auto;
 }
 h1, h2 , nav>ul>li {	
 	text-align: center;
@@ -57,7 +58,10 @@ float:right;
 header>nav , header>nav>img:first-of-type  {																/* Position fixed */
 	position: fixed;
 }
-img, header>nav {																						/* Whidth 100% */
+ header>nav{
+	 width: 450px;
+ }
+img {																						/* Whidth 100% */
 	width: 100%;
 }
 
